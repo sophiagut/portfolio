@@ -14,7 +14,7 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
@@ -24,6 +24,9 @@
 </head>
 
 <body id="page-top">
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress" id="scrollProgress"></div>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -58,7 +61,7 @@
 
   <div class="container-fluid p-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center fade-in-section" id="about">
       <div class="w-100">
         <h1 class="mb-0">Sophia
           <span class="text-primary">Gut</span>
@@ -66,7 +69,7 @@
         <div class="subheading mb-5">· Bay Area, California ·
           <a href="mailto:name@email.com">sophiagut13@gmail.com</a>
         </div>
-        <p class="lead mb-5">Integrated engineer with experience in semiconductor R&D, transmission line design, and solid-state battery materials science. I’m excited to apply my passion for developing innovative solutions critical for the future energy economy.</p>
+        <p class="lead mb-5">Engineer with 4+ years of industry experience in semiconductor R&D and solid-state battery manufacturing. I'm passionate about developing innovative solutions for a more sustainable future—from metrology systems that enable clean energy technology to exploring how AI can transform engineering workflows. Currently focused on integrating advanced measurement systems into high-volume battery production at QuantumScape.</p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/sophia-gut" target = "_blank">
             <i class="fab fa-linkedin-in"></i>
@@ -77,31 +80,47 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center fade-in-section" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">AMTS, Materials Process Engineering</h3>
+            <h3 class="mb-0">Senior Metrology Engineer</h3>
             <div class="subheading mb-3">QuantumScape · San Jose, California</div>
-            <p>· Managing external tool and material vendors by communicating company needs, developing experiments, and collaborating to rectify issues as they arise</p>
-            <p>· As a tool owner, organizing preventative maintenance, training new users, and troubleshooting issues as they arise<p>
-            <p>· Specification development and quality control of incoming raw materials by identifying critical measurements, coordinating measurements with lateral teams, verifying measurement validity, and monitoring data<p>
-            <p>· Design of Experiments (DOE) for intermediate scale-up efforts from 0.3kg to 3kg of product per week while maintaining quality control<p>
-            <p>. Assisting with scalable development for QS0 pilot line activities with DOEs, measurements, process design, and review of downstream impacts<p>
-            <p>. Testing and implementing process improvements for screen printing, slurry making, and print handling of battery separator<p>
-            <p>. Supporting experimental activities for critical production components of solid-state Li-metal battery ceramic separator development<p>
-            <p>. DOEs for troubleshooting and root cause investigations specific to slurry refinement <p>
-            <p>. Aligning across teams for root cause analysis of major production failure mode by writing process genealogy query to synthesize with larger dataset to assist with decision making<p>
-            <p>. Detecting if processes are in-control with JMP control charts and providing mitigation measures for out-of-control scenarios<p>
-            <p>. Process documentation by writing standard operating procedures<p>
-            <p>. Allocating resources and maintaining inventory for screen print production requests from across the company<p>
-            <p>. Training new technicians and engineers to contribute to ceramic separator production<p>
-            <p>. Resolving data-saving issues with technicians and IT team<p>
+            <p>· Integrate metrology systems into automated production tools for high-volume manufacturing of solid-state battery components</p>
+            <p>· Collaborate with external vendors to develop and optimize measurement solutions for critical process parameters</p>
+            <p>· Define system specifications for new metrology equipment and modify existing systems to meet evolving production requirements</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">November 2021 - present</span>
+            <span class="text-primary">April 2025 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Metrology Engineer</h3>
+            <div class="subheading mb-3">QuantumScape · San Jose, California</div>
+            <p>· Transitioned to metrology engineering role, developing expertise in Measurement System Analysis (MSA) and statistical process control</p>
+            <p>· Designed and implemented metrology tools for critical ceramic separator and cathode measurements in solid-state battery production</p>
+            <p>· Applied advanced statistical methods to ensure measurement accuracy, repeatability, and reliability across production systems</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">February 2023 - April 2025</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Associate Process Engineer</h3>
+            <div class="subheading mb-3">QuantumScape · San Jose, California</div>
+            <p>· Led Design of Experiments (DOE) for intermediate scale-up efforts from 0.3kg to 3kg of product per week while maintaining quality control</p>
+            <p>· Aligned across teams for root cause analysis of major production failure mode by developing process genealogy queries to synthesize data and support decision-making</p>
+            <p>· Served as tool owner, organizing preventative maintenance, training new users, and troubleshooting issues for critical production equipment</p>
+            <p>· Supported QS0 pilot line activities through Design of Experiments, measurements, process design, and review of downstream impacts</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">November 2021 - February 2023</span>
           </div>
         </div>
 
@@ -171,20 +190,37 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center fade-in-section" id="projects">
       <div class="w-100">
         <h2 class="mb-5">Projects</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Sensor Mounting Drone System</h3>
-            <div class="subheading mb-3">Roles: Controls, User Interface, and Software</div>
+            <div class="subheading mb-1">University of British Columbia | Capstone Project</div>
+            <p style="font-style: italic; color: #52504E; margin-bottom: 1rem;">Controls, User Interface, Software</p>
             <p>Sensor networks provide critical data for power grid safety. They are expensive and dangerous to install. My team and I developed a drone system to mount and remove sensors from high power transmission lines. Our proof-of-concept has the potential to increase safety and reduce costs.</p>
-            <p> <a>Watch the project video </a> <a href="https://www.youtube.com/watch?v=5rhBipLqpe4&ab_channel=JonNakaneUBC">here.</a></p>
+
+            <!-- YouTube Video Link (embedding disabled by uploader) -->
+            <p style="margin-top: 1rem;">
+              <a href="https://www.youtube.com/watch?v=5rhBipLqpe4" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background-color: #2D6A4F; color: #FAF7F2 !important; text-decoration: none; border-radius: 0.25rem; font-weight: 600; transition: background-color 0.3s ease;">
+                <i class="fab fa-youtube" style="margin-right: 0.5rem;"></i>Watch Project Video on YouTube
+              </a>
+            </p>
+
+            <!-- COMMENTED OUT: Google Slides presentation - can be restored later if needed
             <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTvARz8iS3P3lKXTz8Acij9KTSSxWvxGk3bTrOh0KnVTG_KdHThe38mFZRUj1I1RxMwyPW8IbDe2GX4/embed?start=false&loop=false&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            -->
+
+            <!-- COMMENTED OUT: YouTube embed attempt - video has embedding disabled by uploader
+            <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 1rem;">
+              <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/5rhBipLqpe4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            -->
           </div>
         </div>
 
+        <!-- COMMENTED OUT: Stand-Alone Photovoltaic System Optimization project - can be restored later
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Stand-Alone Photovoltaic System Optimization</h3>
@@ -195,11 +231,13 @@
             <iframe src='pdfExcel\ProjectPVSystemDesignToolV12.htm' width='100%' height='565px' frameborder='0'> </iframe>
           </div>
         </div>
+        -->
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">MicroDetect</h3>
-            <div class="subheading mb-3">Roles: Technical Documentation, Nile Red Dye Technology Development</div>
+            <div class="subheading mb-1">University of British Columbia | Design Project</div>
+            <p style="font-style: italic; color: #52504E; margin-bottom: 1rem;">Technical Documentation, Dye Technology Development</p>
             <p>Working collaboratively with my peers, I created a prototype to autonomously sample water, filter solids from the sample, and capture photographs highlighting microplastic contamination. These photos can then be used to help researchers determine the concentration of microplastics in marine water more efficiently.</p>
             <img src="img/MicroDetectPoster_s.jpg" alt="MicroDetect Project Summary" style="max-width:100%;height:auto;">
           </div>
@@ -208,7 +246,8 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Snowzy</h3>
-            <div class="subheading mb-3">Role: Communication lead</div>
+            <div class="subheading mb-1">University of British Columbia | Design Project</div>
+            <p style="font-style: italic; color: #52504E; margin-bottom: 1rem;">Communication Lead</p>
             <p>Tired of our phones dying while we were having fun in the great outdoors during winter - my peers and I developed a smartphone case to regulate our phone's battery temperature.</p>
             <img src="img/SnowzyPoster.jpg" alt="Snowzy Project Summary" style="max-width:100%;height:auto;">
           </div>
@@ -219,7 +258,7 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center fade-in-section" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
 
@@ -260,11 +299,11 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center fade-in-section" id="interests">
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
-        <p>I chose to study Integrated Engineering for the exposure to numerous disciplines and industries. Combining this exposure with my passion for sustainability, I am eager to take on new challenges. </p>
-        <p class="mb-0">I love exploring the great outdoors. I can often be found hiking, rock climbing, or skiing. My appetite for travel draws me to new areas of the world where I’m grateful to learn with new people.</p>
+        <p>I love spending time outdoors—skiing, rock climbing, road biking, and hiking (Mt. Whitney was a highlight!). When I'm not outside, you'll probably find me in the kitchen testing out new recipes. Ask me about my favorite way to eat tomatoes!</p>
+        <p class="mb-0">I'm also fascinated by nature's clever systems, like the underground fungal networks that allow trees to communicate and support each other.</p>
       </div>
     </section>
 
@@ -280,6 +319,40 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+
+  <!-- Visual Effects Scripts -->
+  <script>
+    // Scroll Progress Indicator
+    window.addEventListener('scroll', function() {
+      const scrollProgress = document.getElementById('scrollProgress');
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrollPercent = (scrollTop / scrollHeight) * 100;
+      scrollProgress.style.width = scrollPercent + '%';
+    });
+
+    // Fade-in Animations on Scroll
+    const fadeInSections = document.querySelectorAll('.fade-in-section');
+
+    const fadeInOptions = {
+      threshold: 0.15,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const fadeInObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          // Optional: stop observing after animation
+          // observer.unobserve(entry.target);
+        }
+      });
+    }, fadeInOptions);
+
+    fadeInSections.forEach(section => {
+      fadeInObserver.observe(section);
+    });
+  </script>
 
 </body>
 
